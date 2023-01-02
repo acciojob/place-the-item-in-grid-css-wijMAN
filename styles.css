@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+
+.holder{
+display: grid;
+gap: 1rem;
+grid-template-columns: repeat(2,200px);
+grid-template-rows: repeat(2, 200px);
+}
+.item{
+    background-color: red;
+    border: 2px solid black;
+    /* height: 100px;
+    width: 100px; */
+
+}
